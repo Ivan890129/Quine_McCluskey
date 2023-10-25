@@ -1,0 +1,12 @@
+.p 6
+AB
+AC'
+AD'
+BC'
+B'D'
+C'D'
+
+.mc 2
+AD'
+BC'
+literal=4
