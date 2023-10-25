@@ -1,2 +1,2 @@
-# cad_hw1_Quine_McCluskey
+# Quine_McCluskey
 
