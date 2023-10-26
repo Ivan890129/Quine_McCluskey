@@ -213,7 +213,9 @@ int count_literal(vector<string>& answer ) {
     return literal;
 }
 
-
+///////////////////////////////////////////////////////////////////
+//                           main                            //
+///////////////////////////////////////////////////////////////////
 int main(int argc, char* argv[])
 {
    ifstream inFile; 
@@ -304,10 +306,8 @@ int main(int argc, char* argv[])
         remove.clear();
         i= i+1;
     }
-    sort(answer.begin(), answer.end());
-                                              
+    sort(answer.begin(), answer.end());                                        
     reverse(answer.begin(), answer.end()); 
-
 
     string temp;
      vector<string> answer_ABC;
@@ -321,7 +321,9 @@ int main(int argc, char* argv[])
 
     int literal;
     literal = count_literal(answer ) ;
-    // output 
+///////////////////////////////////////////////////////////////////
+//                           output                          //
+///////////////////////////////////////////////////////////////////
     int out_num = 0;
     fout << ".p " << answer_ABC.size() << endl;
     for(int i=0 ; i<answer_ABC.size() ; i++){
