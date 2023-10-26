@@ -8,4 +8,5 @@ clean:
 	rm -f Quine_McCluskey.o
 
 
+
 ./Quine_McCluskey.cpp "input1.txt" "output.txt"
